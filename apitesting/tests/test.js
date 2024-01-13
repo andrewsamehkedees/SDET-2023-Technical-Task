@@ -3,6 +3,7 @@ const assert = require('assert');
 const express = require('express');
 const server = request.agent("http://localhost:3000");
 const app = express();
+//getting the token after using get auth for the user by enter the right email and password
 let token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzI4NjksImlhdCI6MTcwNTE3NDg0MSwiZXhwIjoxNzA1MjYxMjQxfQ.oIoGgFJ5sp-B-jrMYPAO8Be72lORdmPka3zOa4t1K5Y';
 let key_admin ='key_admin';
 // Now, let's write the tests
