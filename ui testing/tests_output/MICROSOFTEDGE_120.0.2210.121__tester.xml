@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="tester"
+    errors="1" failures="0" hostname="" id="" package="tester" skipped="0"
+    tests="1" time="0.1940" timestamp="">
+  
+    <testcase name="Test Homepage Search" classname="tester" time="0.09500" assertions="0">
+    <error type="error"><![CDATA[
+    ReferenceError: elements is not defined
+    at Page.test (C:\Users\andre\Documents\Testing\pages\homepageSearchPage.js:29:43)
+    at Test Homepage Search (C:\Users\andre\Documents\Testing\test1\tester.js:21:8)
+    at Context.call (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\context.js:509:35)
+    at TestCase.run (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:839:80)
+    at Runnable.run (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:1000:49)
+    at TestSuite.handleRunnable (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:1015:33)
+    at C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:839:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ ReferenceError
+   elements is not defined
+
+    Error location:
+    C:\Users\andre\Documents\Testing\test1\tester.js:21
+    ––––––––––––––––––––––––––––––––––––––––––––––––––
+     19 |       .performHomepageSearch(&#39;dress&#39;)
+     20 |       .waitForElementPresent(&#39;body&#39;, 1000)
+     21 |       .test() 
+     22 |       .verifySearchResultsContainDresses()
+     23 |       .end();
+    ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at Page.test (C:\Users\andre\Documents\Testing\pages\homepageSearchPage.js:29:43)
+    at Test Homepage Search (C:\Users\andre\Documents\Testing\test1\tester.js:21:8)
+    at Context.call (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\context.js:509:35)
+    at TestCase.run (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:839:80)
+    at Runnable.run (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:1000:49)
+    at TestSuite.handleRunnable (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:1015:33)
+    at C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:839:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

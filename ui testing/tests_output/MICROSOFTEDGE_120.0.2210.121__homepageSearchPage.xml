@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="homepageSearchPage"
+    errors="0" failures="0" hostname="" id="" package="homepageSearchPage" skipped="0"
+    tests="0" time="0.003000" timestamp="">
+  
+
+  
+    <system-err>
+       ✖ ReferenceError
+   elements is not defined
+
+    Error location:
+    C:\Users\andre\Documents\Testing\test1\tester.js:21
+    ––––––––––––––––––––––––––––––––––––––––––––––––––
+     19 |       .performHomepageSearch(&#39;dress&#39;)
+     20 |       .waitForElementPresent(&#39;body&#39;, 1000)
+     21 |       .test() 
+     22 |       .verifySearchResultsContainDresses()
+     23 |       .end();
+    ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at Page.test (C:\Users\andre\Documents\Testing\pages\homepageSearchPage.js:29:43)
+    at Test Homepage Search (C:\Users\andre\Documents\Testing\test1\tester.js:21:8)
+    at Context.call (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\context.js:509:35)
+    at TestCase.run (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:839:80)
+    at Runnable.run (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:1000:49)
+    at TestSuite.handleRunnable (C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:1015:33)
+    at C:\Users\andre\Documents\Testing\node_modules\nightwatch\lib\testsuite\index.js:839:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
