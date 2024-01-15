@@ -1,0 +1,16 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: your-docker-image
+
+    steps:
+      - checkout
+      - run: echo "Your build commands go here"
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
