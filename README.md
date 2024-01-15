@@ -1,4 +1,5 @@
-# SDET 2023 - Technical Task
+# SDET 2023 - Technical Task 
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/3nHNZnj36xoCLJsTQ2z9mS/CstYBsnYCgDfrYSJhCvP8F/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/3nHNZnj36xoCLJsTQ2z9mS/CstYBsnYCgDfrYSJhCvP8F/tree/main)
 
 This repository contains the test scripts and related files for the SDET 2023 Technical Task Integreted with CircleCI.
 
